@@ -11,3 +11,4 @@ for i in range(2, int(y ** 0.5) + 1):
 
 res = [i for i in range(x, y + 1) if primes[i]]
 print(res if res else "No")
+print("it prints all prime number")
